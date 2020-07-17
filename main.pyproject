@@ -1,0 +1,3 @@
+{
+    "files": ["text_to_qr.ui","main.ui","main.pyproject.user","main.py","ui_main.py","ui_text_to_qr.py","qr_to_text.ui","ui_qr_to_text.py"]
+}

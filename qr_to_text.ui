@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{	
+	background-color: rgb(255, 131, 6);
+	border: 0px solid grey;
+}
+
+
+QScrollBar:vertical {
+    border: 0px solid #999999;
+    background:  white;
+    width:10px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+QScrollBar::handle:vertical {
+    background: rgb(101, 24, 255);
+    min-height: 0px;
+}
+
+QMenu {
+    background-color: white;
+    border: 1px solid #4495D1;
+    padding: 1px;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Serif</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 84, 16);
+color: rgb(253, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>QR в текст</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Miriam CLM</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 1px solid grey;
+	background-color: rgb(130, 81, 234);
+	color: white;
+}
+QPushButton:hover{
+	background-color: #9651EA;
+	border: 1px solid grey;
+	color: white;
+}
+QPushButton:pressed{
+	background-color: #AA38EA;
+	border: 1px solid grey;
+	color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Выбрать картинку</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextBrowser" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">QTextBrowser{
+	background-color: rgb(84, 89, 99);
+	color: white;
+}
+
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>59</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+	border-radius: 10px;
+	border: 1px solid grey;
+	background-color: rgb(255, 46, 5);
+	color: white;
+}
+QPushButton:hover{
+	background-color:  rgb(255, 16, 5);
+	border: 1px solid grey;
+	color: white;
+}
+QPushButton:pressed{
+	background-color:  rgb(255, 0, 0);
+	border: 1px solid grey;
+	color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Вернуться</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
